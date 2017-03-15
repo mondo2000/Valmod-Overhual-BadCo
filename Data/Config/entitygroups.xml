@@ -1289,14 +1289,7 @@
 		<entity name="ZombieLibrarian" prob="0.15"/>
 		<entity name="ZombieChildFemale" prob="0.1"/>
 	</entitygroup>
-
-	<!-- For World Border Biome -->
-	<entitygroup name="ZombiesBoss">
-		<entity name="fatzombiecop" prob="1.0"/>
-		<entity name="ZombieWarlord" prob="0.35"/>
-		<entity name="ZombieBrute" prob="0.05"/>
-	</entitygroup>
-
+	
 	<!-- Scouts -->
 	<entitygroup name="ZombieScouts">
 		<entity name="zombieScreamer" />
