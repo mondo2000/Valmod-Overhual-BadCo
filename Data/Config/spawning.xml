@@ -12,7 +12,7 @@
 	<!-- Biome spawning -->
 
 	<!-- JOEL: change "respawndelay" to world days, change "maxcount" to entities per area -->
-	
+
 	<biome name="burnt_forest">
 		<!-- 
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="AnimalsAll" spawnDeadChance="0" />
@@ -22,6 +22,7 @@
 		<spawn maxcount="2" respawndelay="3" time="Any" entitygroup="ZombiesBurntForestUMA"/>
 		<spawn maxcount="3" respawndelay="3" time="Any" entitygroup="ZombiesBurntForestMixed"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="AnimalsSmall" spawnDeadChance="0"/>
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<biome name="desert">
 		<!--
@@ -32,6 +33,7 @@
 		<spawn maxcount="2" respawndelay="3" time="Any" entitygroup="ZombiesDesertUMA"/>
 		<spawn maxcount="3" respawndelay="3" time="Any" entitygroup="ZombiesDesertMixed"/>
 		<spawn maxcount="1" respawndelay="8" time="Any"   entitygroup="AnimalsSmall" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<biome name="forest">
 		<!-- 
@@ -42,6 +44,7 @@
 		<spawn maxcount="1" respawndelay="3" time="Any" entitygroup="ZombiesForest"/>
 		<spawn maxcount="2" respawndelay="3" time="Any" entitygroup="ZombiesForestUMA"/>
 		<spawn maxcount="3" respawndelay="3" time="Any" entitygroup="ZombiesForestMixed"/>
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<biome name="pine_forest">
 		<!--    
@@ -52,6 +55,7 @@
 		<spawn maxcount="1" respawndelay="3" time="Any" entitygroup="ZombiesPineForest"/>
 		<spawn maxcount="2" respawndelay="3" time="Any" entitygroup="ZombiesPineForestUMA"/>
 		<spawn maxcount="3" respawndelay="3" time="Any" entitygroup="ZombiesPineForestMixed"/>
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<biome name="plains">
 		<!--
@@ -61,6 +65,7 @@
 		<spawn maxcount="2" respawndelay="3" time="Any" entitygroup="ZombiesPlainsUMA"/>
 		<spawn maxcount="3" respawndelay="3" time="Any" entitygroup="ZombiesPlainsMixed"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="AnimalsAll" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<biome name="snow">
 		<spawn maxcount="1" respawndelay="4" time="Any" entitygroup="SnowZombies" />
@@ -68,6 +73,7 @@
 		<spawn maxcount="2" respawndelay="3" time="Any" entitygroup="ZombiesSnowUMA"/>
 		<spawn maxcount="3" respawndelay="3" time="Any" entitygroup="ZombiesSnowMixed"/>
 		<spawn maxcount="1" respawndelay="8" time="Any" entitygroup="AnimalsAll" spawnDeadChance="0"/>
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<biome name="wasteland">
 		<!--
@@ -81,6 +87,7 @@
 		<spawn maxcount="3" respawndelay="3" time="Night" entitygroup="ZombiesWastelandNightUMA"/>
 		<spawn maxcount="4" respawndelay="3" time="Day" entitygroup="ZombiesWastelandMixed"/>
 		<spawn maxcount="4" respawndelay="3" time="Night" entitygroup="ZombiesWastelandNightMixed"/>
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<!-- Random gen city-->
 	<biome name="wasteland_hub">
@@ -95,6 +102,7 @@
 		<spawn maxcount="2" respawndelay="0" time="Night" entitygroup="ZombiesWastelandHubNightUMA"/>
 		<spawn maxcount="6" respawndelay="1" time="Day" entitygroup="ZombiesWastelandHubMixed"/>
 		<spawn maxcount="4" respawndelay="0" time="Night" entitygroup="ZombiesWastelandHubNightMixed"/>
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<!-- Gravestown & Perishton-->
 	<biome name="city_wasteland">
@@ -105,6 +113,7 @@
 		<spawn maxcount="4" respawndelay="1" time="Night" entitygroup="ZombiesWastelandHub" />
 		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="ZombieDogGroup" />
 		<spawn maxcount="15" respawndelay="0" time="Any" entitygroup="ZombiesWastelandBorder"/>
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<!-- Diersville -->
 	<biome name="city">
@@ -113,8 +122,9 @@
 		<spawn maxcount="4" respawndelay="1" time="Night" entitygroup="ZombiesNight" />
 		<spawn maxcount="1" respawndelay="5" time="Night" entitygroup="JasonGroup" />
 		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="ZombieDogGroup" />
+		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
-	
+
 	<!-- Heat Scouts -->
 	<entityspawner name="Scouts" dynamic="true" wrapMode="wrap">
 		<day value="1,100">
