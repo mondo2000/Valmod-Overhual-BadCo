@@ -2964,7 +2964,7 @@
 		<item name="gun44Magnum"/>
 		<item name="44MagBullet" count="1,12"/>
 	</lootgroup>
-	<lootgroup name="ak47+ammo" count="all">
+	<lootgroup name="ak47+ammo2" count="all">
 		<item name="gunAK47"/>
 		<item name="762mmBullet" count="1,20"/>
 	</lootgroup>
