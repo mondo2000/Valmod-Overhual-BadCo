@@ -4,19 +4,19 @@
 
 	<rulesets>
 		<ruleset name="vanilla" cell_cache_size="8" cell_size="1900" cell_offset="0.2" generation_distance="10000" terrain_generator="vanilla">
-			<cell_rule name="wastelandHub_c" position="0,0" prob="0"/>
-			<cell_rule name="wastelandHub_n" position="0,1" prob="0"/>
-			<cell_rule name="wastelandHub_s" position="0,-1" prob="0"/>
-			<cell_rule name="wastelandHub_e" position="1,0" prob="0"/>
-			<cell_rule name="wastelandHub_w" position="-1,0" prob="0"/>
-			<cell_rule name="wastelandHub_ne" position="1,1" prob="0"/>
-			<cell_rule name="wastelandHub_nw" position="-1,1" prob="0"/>
-			<cell_rule name="wastelandHub_se" position="1,-1" prob="0"/>
-			<cell_rule name="wastelandHub_sw" position="-1,-1" prob="0"/>
-			<cell_rule name="Stronghold_Famine" position="0,4" prob="0"/>
-			<cell_rule name="Stronghold_War" position="0,-4" prob="0"/>
-			<cell_rule name="Stronghold_Pestilence" position="4,0" prob="0"/>
-			<cell_rule name="Stronghold_Dragon" position="-4,0" prob="0"/>
+			<cell_rule name="wastelandHub_c" position="0,0" prob="0.4"/>
+			<cell_rule name="wastelandHub_n" position="0,1" prob="0.4"/>
+			<cell_rule name="wastelandHub_s" position="0,-1" prob="0.4"/>
+			<cell_rule name="wastelandHub_e" position="1,0" prob="0.4"/>
+			<cell_rule name="wastelandHub_w" position="-1,0" prob="0.4"/>
+			<cell_rule name="wastelandHub_ne" position="1,1" prob="0.4"/>
+			<cell_rule name="wastelandHub_nw" position="-1,1" prob="0.4"/>
+			<cell_rule name="wastelandHub_se" position="1,-1" prob="0.4"/>
+			<cell_rule name="wastelandHub_sw" position="-1,-1" prob="0.4"/>
+			<cell_rule name="Stronghold_Famine" position="0,4" prob="1"/>
+			<cell_rule name="Stronghold_War" position="0,-4" prob="1"/>
+			<cell_rule name="Stronghold_Pestilence" position="4,0" prob="1"/>
+			<cell_rule name="Stronghold_Dragon" position="-4,0" prob="1"/>
 			<cell_rule name="lowDensity" prob="0.8"/>
 			<cell_rule name="highDensity" prob="0.45"/>
 			<cell_rule name="wastelandHub" position="0,0" prob="0.05"/>
