@@ -117,7 +117,7 @@
 	
 	<!-- Heat Scouts -->
 	<entityspawner name="Scouts" dynamic="true" wrapMode="wrap">
-		<day value="1,27">
+		<day value="1,100">
 			<property name="ResetToday" value="true"/>
 			<property name="EntityGroupName" value="ZombieScoutsEasy"/>
 			<property name="Time" value="Any"/>
@@ -125,7 +125,7 @@
 			<property name="TotalAlive" value="1"/>
 			<property name="TotalPerWave" value="1"/>
 		</day>
-		<day value="28,49">
+		<day value="101,200">
 			<property name="ResetToday" value="true"/>
 			<property name="EntityGroupName" value="ZombieScoutsMedium"/>
 			<property name="Time" value="Any"/>
@@ -133,7 +133,143 @@
 			<property name="TotalAlive" value="2"/>
 			<property name="TotalPerWave" value="1"/>
 		</day>
-		<day value="50,2000">
+		<day value="201,300">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="BanditsAll"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="301,400">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="ZombieScoutsMedium"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="401,500">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="BanditsThugsRonin"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="501,600">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="ZombieScoutsMedium"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="601,700">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="BanditsThugsWar"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="701,800">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="ZombieScoutsMedium"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="801,900">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="BanditsThugsDread"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="901,1000">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="ZombieScoutsMedium"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1001,1100">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="BanditsThugsTheMaker"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1101,1200">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="ZombieScoutsMedium"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1201,1300">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="BanditsThugsFamine"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1301,1400">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="ZombieScoutsMedium"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1401,1500">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="BanditsThugsDragon"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1501,1600">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="ZombieScoutsMedium"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1601,1700">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="BanditsThugsDeath"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1701,1800">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="ZombieScoutsMedium"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1801,1900">
+			<property name="ResetToday" value="true"/>
+			<property name="EntityGroupName" value="BanditsThugsPestilence"/>
+			<property name="Time" value="Any"/>
+			<property name="DelayBetweenSpawns" value="1"/>
+			<property name="TotalAlive" value="2"/>
+			<property name="TotalPerWave" value="1"/>
+		</day>
+		<day value="1901,2000">
 			<property name="ResetToday" value="true"/>
 			<property name="EntityGroupName" value="ZombieScoutsHard"/>
 			<property name="Time" value="Any"/>
