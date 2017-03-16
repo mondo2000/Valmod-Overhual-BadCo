@@ -12571,6 +12571,7 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>
+	
 	<!-- Valmod Archetypes -->
 	<archetype name="Valmar" male="true" hair_color="0,0,0" eye_color="100,110,115" skin_color="230,230,230" type="Player">
 		<base_mesh_parts>
@@ -15620,5 +15621,4 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>
-	<!-- Derty's Den Archetypes-->
 </archetypes>
