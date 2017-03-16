@@ -688,10 +688,10 @@
 		<item name="762mmBullet" count="5,15"/>
 	</lootgroup>
 
-	<!--<lootgroup name="ak47+ammo" count="all">
+	<lootgroup name="ak47+ammo" count="all">
 		<item name="gunAK47"/>
 		<item name="762mmBullet" count="5,18"/>
-	</lootgroup> -->
+	</lootgroup>
 	<lootgroup name="trophyGroup" count="1">
 		<item name="trophy"/>
 		<item name="trophy2"/>
@@ -3234,10 +3234,12 @@
 		<item name="gun44Magnum"/>
 		<item name="44MagBullet" count="1,12"/>
 	</lootgroup>
-	<lootgroup name="ak47+ammo" count="all">
+
+	<!-- Error dupe fix -->
+	<!-- <lootgroup name="ak47+ammo" count="all">  
 		<item name="gunAK47"/>
 		<item name="762mmBullet" count="1,20"/>
-	</lootgroup>
+	</lootgroup> -->
 
 	<lootgroup name="banditsRare" count="0,1">
 		<item name="casinoCoin" count="10,100"/>
