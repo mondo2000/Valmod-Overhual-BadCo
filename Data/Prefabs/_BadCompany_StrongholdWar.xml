@@ -6,7 +6,7 @@
   <property name="YOffset" value="-7"/>
   <property name="RotationToFaceNorth" value="2"/>
   <property name="AllowedTownships" value="city,town,rural,wilderness"/>
-  <property name="StaticSpawner.Class" value="SpawnExLarge"/>
+  <property name="StaticSpawner.Class" value="SpawnBanditThugsWar"/>
   <property name="StaticSpawner.Size" value="64,2,64"/>
   <property name="StaticSpawner.Trigger" value="160"/>
 </prefab>
