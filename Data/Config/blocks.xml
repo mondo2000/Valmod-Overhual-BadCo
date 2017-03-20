@@ -37,7 +37,9 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="DropScale" value="2" />
 	<property name="LPHardnessScale" value="2" />
 	<property name="Weight" value="125" />
-	<property class="RepairItems"> <property name="cobblestones" value="6" /> </property>
+	<property class="RepairItems"> 
+    <property name="cobblestones" value="6" />
+     </property>
 	<drop event="Harvest" name="rockSmall" count="13" />
 	<drop event="Destroy" name="rockSmall" count="12" />
 	<drop event="Destroy" name="ironFragment" count="2" />
@@ -68,7 +70,9 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="LPHardnessScale" value="4" />
 	<property name="Map.Color" value="50,120,55" />
 	<property name="PlaceAltBlockValue" value="grassFromDirt,fertileDirt" />
-	<property class="RepairItems"> <property name="dirtFragment" value="10" /> </property>
+	<property class="RepairItems">
+ <property name="dirtFragment" value="10" />
+ </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="fertileFarmland" />
 		<property name="Item" value="hoeIron" />
@@ -696,7 +700,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="FallDamage" value="false" />
 	<property name="UpgradeRated.ToBlock" value="GoreBlock1BonesPrefab" />
-	<property name="UpgradeRated.Rate" value="5" />
+	<property name="UpgradeRated.Rate" value="22" />
 	<property name="DowngradeBlock" value="GoreBlock1BonesPrefab" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".6" tool_category="Butcher" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".6" />
@@ -6361,9 +6365,9 @@ kind of free
 	<property name="Tag" value="Gore" />
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="FallDamage" value="false" />
-	<property name="UpgradeRated.ToBlock" value="air" />
-		<!-- <property name="UpgradeRated.ToBlock" value="GoreBlock1BonesPrefab" /> -->
-		<property name="UpgradeRated.Rate" value="5" />
+		<!-- <property name="UpgradeRated.BlockCombined" value="air" /> -->
+		<property name="UpgradeRated.ToBlock" value="GoreBlock1BonesPrefab" />
+		<property name="UpgradeRated.Rate" value="25" />
 	<property name="DowngradeBlock" value="GoreBlock1BonesPrefab" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".6" tool_category="Butcher" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".6" />
@@ -6384,7 +6388,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true" />
 		<!-- <property name="UpgradeRated.BlockCombined" value="air" /> -->
 		<property name="UpgradeRated.ToBlock" value="air" />
-		<property name="UpgradeRated.Rate" value="5" />
+		<property name="UpgradeRated.Rate" value="25" />
 	<drop event="Harvest" name="femur" count="1" prob=".4" tool_category="Butcher" />
 	<drop event="Destroy" name="femur" count="1" prob="1" />
 </block>
@@ -13990,7 +13994,64 @@ kind of free
 	<property name="DescriptionKey" value="lightGroupDesc"/>
 </block>
 
-
+<!-- Bad Company Custom Blocks -->
+  <block id="2000" name="banditLeaderCorpse">
+    <property name="Class" value="Loot"/>
+    <property name="Material" value="organic"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Mesh" value="models"/>
+    <property name="Model" value="Entities/Gore/gore_block1_Prefab"/>
+    <property name="Texture" value="22"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Tag" value="Gore"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="LootList" value="200"/>
+    <property name="DowngradeBlock" value="GoreBlock1BonesPrefab" />
+    <drop event="Harvest" name="rawMeat" count="1" prob=".6" tool_category="Butcher"/>
+    <drop event="Harvest" name="rawMeat" count="2" prob=".6"/>
+    <drop event="Harvest" name="animalFat" count="2" prob=".33" tool_category="Butcher"/>
+    <drop event="Destroy" count="0"/>
+  </block>
+  <block id="2001" name="banditPistolCorpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="201"/>
+  </block>
+  <block id="2002" name="bandit44MagnumCorpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="202"/>
+  </block>
+  <block id="2003" name="banditSawedOffPumpShotgunCorpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="203"/>
+  </block>
+  <block id="2004" name="banditPumpShotgunCorpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="204"/>
+  </block>
+  <block id="2005" name="banditMP5Corpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="205"/>
+  </block>
+  <block id="2006" name="banditAK47Corpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="206"/>
+  </block>
+  <block id="2007" name="banditHuntingRifleCorpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="207"/>
+  </block>
+  <block id="2008" name="banditSniperRifleCorpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="208"/>
+  </block>  
+  <block id="2009" name="banditRocketLauncherCorpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="209"/>
+  </block>  
+  <block id="2010" name="banditSledgeCorpse">
+    <property name="Extends" value="banditLeaderCorpse"/>
+    <property name="LootList" value="210"/>
+  </block>
 
 	<!-- Valmod Blocks -->
 	
