@@ -74,7 +74,9 @@
 	</biome>
 	<biome name="snow">
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="JasonGroup" />
+		<!--
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="SnowZombies" />
+			  -->
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesSnow"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesSnowUMA"/>
 		<spawn maxcount="2" respawndelay="15" time="Any" entitygroup="ZombiesSnowMixed"/>
