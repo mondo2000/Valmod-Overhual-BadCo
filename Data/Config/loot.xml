@@ -661,7 +661,7 @@
 		<item group="rifles"/>
 		<item name="762mmBullet" count="5,15"/>
 	</lootgroup>
-	<lootgroup name="ak47+ammo" count="all">
+	<lootgroup name="ak47+ammo+nonmod" count="all">
 		<item name="gunAK47"/>
 		<item name="762mmBullet" count="5,18"/>
 	</lootgroup>
@@ -839,7 +839,7 @@
 		<item group="mp5+ammo" prob="0.15"/>
 		<item group="sniperRifle+ammo" prob="0.15"/>
 		<item group="rocketLauncher+ammo" prob="0.05"/>
-		<item group="ak47+ammo" prob="0.05" />
+		<item group="ak47+ammo+nonmod" prob="0.05" />
 	</lootgroup>
 	<lootgroup name="specialAmmo">
 		<item name="762mmBulletHP" count="10,15"/>
@@ -2954,7 +2954,6 @@
 		<item group="legendarymelee" prob="0.1"/>
 	</lootcontainer>
 
-
 	<!-- Bad Company Loot -->
 	<lootgroup name="sawedoffpumpshotgun+ammo" count="all">
 		<item name="gunSawedOffPumpShotgun"/>
@@ -2964,10 +2963,11 @@
 		<item name="gun44Magnum"/>
 		<item name="44MagBullet" count="1,12"/>
 	</lootgroup>
-	<lootgroup name="ak47+ammo2" count="all">
+	<lootgroup name="ak47+ammo" count="all">
 		<item name="gunAK47"/>
 		<item name="762mmBullet" count="1,20"/>
 	</lootgroup>
+
 	<lootgroup name="banditsRare" count="0,1">
 		<item name="casinoCoin" count="10,100"/>
 		<item group="questChallenge" count="1" prob="0.2"/>
@@ -3005,6 +3005,7 @@
 	<lootgroup name="banditsSledgeHammer" count="all">
 		<item name="sledgehammer"/>
 	</lootgroup>
+
 	<lootgroup name="banditsLeader+AK47" count="all">
 		<item group="banditsGeneral" count="1,2"/>
 		<item group="banditArmor" count="1,5"/>
@@ -3013,99 +3014,90 @@
 		<item name="casinoCoin" count="300,1000"/>
 		<item group="militaryammo" count="2"/>
 	</lootgroup>
-	<lootcontainer id="203" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsLeader+AK47" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+Pistol" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="banditsPistol" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="204" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsThug+Pistol" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+44Magnum" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="bandits44Magnum" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="205" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsThug+44Magnum" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+SawedOffPumpShotgun" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="banditsSawedOffPumpShotgun" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="206" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsThug+SawedOffPumpShotgun" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+PumpShotgun" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="banditsPumpShotgun" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="207" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsThug+PumpShotgun" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+MP5" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="banditsMP5" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="208" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsThug+MP5" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+AK47" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="banditsAK47" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="209" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsThug+AK47" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+HuntingRifle" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="banditsHuntingRifle" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="210" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsThug+HuntingRifle" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+SniperRifle" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="banditsSniperRifle" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="211" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsThug+SniperRifle" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+RocketLauncher" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="banditsRocketLauncher" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="212" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item group="banditsThug+RocketLauncher" prob="1"/>
-	</lootcontainer>
-	
 	<lootgroup name="banditsThug+SledgeHammer" count="all">
 		<item group="banditsGeneral" count="2,4"/>
 		<item group="banditsSledgeHammer" count="1"/>
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
-	<lootcontainer id="213" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+
+	<lootcontainer id="205" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsLeader+AK47" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="206" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsThug+Pistol" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="207" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsThug+44Magnum" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="208" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsThug+SawedOffPumpShotgun" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="209" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsThug+PumpShotgun" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="210" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsThug+MP5" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="211" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsThug+AK47" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="212" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsThug+HuntingRifle" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="213" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsThug+SniperRifle" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="214" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item group="banditsThug+RocketLauncher" prob="1"/>
+	</lootcontainer>
+	<lootcontainer id="215" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+SledgeHammer" prob="1"/>
-	</lootcontainer>	
+	</lootcontainer>
 	
 
 	<!-- Val Classes Mod -->
