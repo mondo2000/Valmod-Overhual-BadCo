@@ -27,7 +27,6 @@
 		<entity name="zombiePig" prob="0.15"/>
 		<entity name="zombieRabbit" prob="0.15"/>
 		<entity name="zombieChicken" prob="0.15"/>
-
 		<entity name="zombieMaleHazmat" prob="0.15"/>
 		<entity name="zombieFemaleHazmat" prob="0.15"/>
 		<entity name="ZombieFemaleFatUMA" prob="0.45"/>
@@ -1396,6 +1395,16 @@
 	</entitygroup>
 
 	<!-- Zombie Animals -->
+	<entitygroup name="ZombieAnimals">
+		<entity name="zombiedog" prob="0.001"/>
+		<entity name="zombieBear" prob="0.005"/>
+		<entity name="zombieDogScreamer" prob="0.005"/>
+		<entity name="zombieStag" prob="0.005"/>
+		<entity name="zombiePig" prob="0.005"/>
+		<entity name="zombieRabbit" prob="0.5"/>
+		<entity name="zombieChicken" prob="0.5"/>
+	</entitygroup>
+	
 	<entitygroup name="ZombiesChickens">
 		<!-- You're Clucked! -->
 		<entity name="zombieChicken"/>
