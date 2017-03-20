@@ -3015,7 +3015,7 @@
 		<item name="gun44Magnum"/>
 		<item name="44MagBullet" count="1,12"/>
 	</lootgroup>
-	<lootgroup name="ak47+ammo" count="all">
+	<lootgroup name="badco+ak47+ammo" count="all">
 		<item name="gunAK47"/>
 		<item name="762mmBullet" count="1,20"/>
 	</lootgroup>
@@ -3043,7 +3043,7 @@
 		<item group="mp5+ammo"/>
 	</lootgroup>
 	<lootgroup name="banditsAK47" count="all">
-		<item group="ak47+ammo"/>
+		<item group="badco+ak47+ammo"/>
 	</lootgroup>
 	<lootgroup name="banditsHuntingRifle" count="all">
 		<item group="huntingRifle+ammo"/>
