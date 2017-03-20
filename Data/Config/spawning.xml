@@ -106,7 +106,9 @@
 		<spawn maxcount="2" respawndelay="2" time="Day" entitygroup="ZombiesAll" />
 		<spawn maxcount="2" respawndelay="2" time="Day" entitygroup="ZombiesWastelandHub" />
 		<spawn maxcount="2" respawndelay="2" time="Night" entitygroup="ZombiesWastelandHub" />
+		<!--
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesUnique" />
+			  -->
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesBoss" />
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="BruteBoss" />
 		<spawn maxcount="4" respawndelay="2" time="Night" entitygroup="ZombiesWastelandHubNight"/>
@@ -121,7 +123,9 @@
 	<biome name="city_wasteland">
 		<spawn maxcount="2" respawndelay="2" time="Night" entitygroup="JasonGroup" />
 		<spawn maxcount="2" respawndelay="2" time="Day" entitygroup="ZombiesAll" />
+		<!--
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesUnique" />
+			  -->
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesBoss" />
 		<spawn maxcount="4" respawndelay="2" time="Night" entitygroup="ZombiesWastelandHub" />
 		<spawn maxcount="2" respawndelay="15" time="Any" entitygroup="ZombieDogGroup" />
@@ -133,7 +137,9 @@
 
 	<biome name="city">
 		<spawn maxcount="4" respawndelay="2" time="Day" entitygroup="ZombiesAll" />
+		<!--
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesUnique" />
+			  -->
 		<spawn maxcount="4" respawndelay="2" time="Night" entitygroup="ZombiesNight" />
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="JasonGroup" />
 		<spawn maxcount="2" respawndelay="15" time="Any" entitygroup="ZombieDogGroup" />
