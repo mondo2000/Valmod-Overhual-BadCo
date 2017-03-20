@@ -10216,8 +10216,6 @@ which does not exist, yet. -->
 			<property name="DismembermentBaseChance" value="5,5"/>
 		</property>
 	</item>
-	
-	<!-- BadCo Admin Tools-->
 	<item id="1665" name="Admin 25 Skillpoints">
 		<property name="CustomIcon" value="survivorNotes" />
 		<property name="CustomIconTint" value="172,33,50" />
@@ -10236,7 +10234,11 @@ which does not exist, yet. -->
 			<property name="Delay" value="0" />
 		</property>
 	</item>
-	<item id="1666" name="Admin_nailgun">
+
+
+
+	<!-- ADMIN ITEMS -->
+	<item id="1665" name="Admin_nailgun">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Meshfile" value="Items/Tools/nailgunPrefab"/>
 		<property name="CustomIcon" value="nailgun"/>
@@ -10384,7 +10386,9 @@ which does not exist, yet. -->
 			<property name="EntityDamage" value="1,1"/>
 			<property name="BlockDamage" value="1,1"/>
 		</property>
-	</item>	
+	</item>
+
+
 
 	<!-- Expanded Clothes Mod -->
 	<item id="1694" name="pimpHat">
@@ -16233,9 +16237,11 @@ which does not exist, yet. -->
 		</property>
 	</item>
 
+
+
 	<!-- Bad Company Custom Items -->
 	<!-- ARMOR -->
-	<item id="3050" name="modularMasterPart">
+	<item id="3010" name="modularMasterPart">
 		<property name="IsDeveloper" value="true"/>
 		<property name="PartType" value="Barrel"/>
 		<property name="Material" value="metal"/>
@@ -16247,7 +16253,7 @@ which does not exist, yet. -->
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Group" value="Resources"/>
 	</item>
-	<item id="3051" name="modularArmor">
+	<item id="3011" name="modularArmor">
 		<!--
     <property name="CustomIcon" value="scrapChestArmor"/>
     <property name="CustomIconTint" value="7F0000"/>
@@ -16291,7 +16297,7 @@ which does not exist, yet. -->
 			<property name="UISlot" value="ChestArmor"/>
 		</property>
 	</item>
-	<item id="3052" name="modularArmorFrame">
+	<item id="3012" name="modularArmorFrame">
 		<property name="Extends" value="modularMasterPart"/>
 		<property name="CustomIcon" value="rebarFramePillar100"/>
 		<property name="CustomIconTint" value="7F0000"/>
@@ -16302,7 +16308,7 @@ which does not exist, yet. -->
 			<property name="DegradationMax" value="2000,10000"/>
 		</property>
 	</item>
-	<item id="3053" name="modularArmorBindings">
+	<item id="3013" name="modularArmorBindings">
 		<property name="Extends" value="modularMasterPart"/>
 		<property name="CustomIcon" value="ductTape"/>
 		<property name="CustomIconTint" value="7F0000"/>
@@ -16313,7 +16319,7 @@ which does not exist, yet. -->
 			<property name="DegradationMax" value="2000,10000"/>
 		</property>
 	</item>
-	<item id="3054" name="modularArmorShell">
+	<item id="3014" name="modularArmorShell">
 		<property name="Extends" value="modularMasterPart"/>
 		<property name="CustomIcon" value="scrapChestArmor"/>
 		<property name="CustomIconTint" value="9F0000"/>
@@ -16325,7 +16331,7 @@ which does not exist, yet. -->
 			<property name="DegradationMax" value="2000,10000"/>
 		</property>
 	</item>
-	<item id="3055" name="modularArmorPadding">
+	<item id="3015" name="modularArmorPadding">
 		<property name="Extends" value="modularMasterPart"/>
 		<property name="CustomIcon" value="plantedCotton3Harvest"/>
 		<property name="CustomIconTint" value="7F0000"/>
@@ -16338,7 +16344,7 @@ which does not exist, yet. -->
 	</item>
 
 	<!-- WEAPONS -->
-	<item id="3070" name="gunToxicPhageCannon">
+	<item id="3016" name="gunToxicPhageCannon">
 		<property name="CustomIcon" value="nailgun"/>
 		<property name="CustomIconTint" value="00ff00"/>
 		<property name="Meshfile" value="Items/Tools/nailgunPrefab"/>
@@ -16368,7 +16374,7 @@ which does not exist, yet. -->
 			<property name="ActionExp" value="1"/>
 		</property>
 	</item>
-	<item id="3071" name="gunFlameThrower">
+	<item id="3017" name="gunFlameThrower">
 		<property name="CustomIcon" value="nailgun"/>
 		<property name="CustomIconTint" value="ff0000"/>
 		<property name="Meshfile" value="Items/Tools/nailgunPrefab"/>
@@ -16398,7 +16404,7 @@ which does not exist, yet. -->
 			<property name="ActionExp" value="1"/>
 		</property>
 	</item>
-	<item id="3072" name="Grassitron2000">
+	<item id="3018" name="Grassitron2000">
 		<property name="CustomIcon" value="hoeIron"/>
 		<property name="CustomIconTint" value="00ff00"/>
 		<property name="Meshfile" value="Items/Tools/hoe_ironPrefab"/>
@@ -16426,13 +16432,14 @@ which does not exist, yet. -->
 			<property name="ActionExp" value="1"/>
 		</property>
 	</item>
-	<item id="3073" name="Unload">
+
+	<item id="3019" name="Unload">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/9mm_bulletPrefab"/>
 		<property name="Material" value="brass"/>
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="1"/>
 	</item>
-	<item id="3074" name="ToxicPhageProjectile">
+	<item id="3020" name="ToxicPhageProjectile">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Vomit/vomitBulbPrefab"/>
 		<property name="HandMeshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketHandPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/oilShaleDroppedPrefab"/>
@@ -16471,7 +16478,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="1,1"/>
 		</property>
 	</item>
-	<item id="3075" name="FlameProjectile">
+	<item id="3021" name="FlameProjectile">
 		<!--    <property name="Meshfile" value="ParticleEffects/p_onFire"/>-->
 		<property name="Meshfile" value="ParticleEffects/p_signal_flareprefab"/>
 		<property name="HandMeshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketHandPrefab"/>
@@ -16511,7 +16518,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="1,1"/>
 		</property>
 	</item>
-	<item id="3076" name="GrassitronProjectile">
+	<item id="3022" name="GrassitronProjectile">
 		<property name="Meshfile" value="Items/Tools/nailProjectilePrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
@@ -16549,7 +16556,7 @@ which does not exist, yet. -->
 	</item>
 
 	<!-- MISC ITEMS -->
-	<item id="3090" name="wigDreadsWhite">
+	<item id="3023" name="wigDreadsWhite">
 		<property name="CustomIcon" value="cloth"/>
 		<property name="CustomIconTint" value="ffffff"/>
 		<property name="Insulation" value="-5"/>
@@ -16581,21 +16588,21 @@ which does not exist, yet. -->
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="10"/>
 	</item>
-	<item id="3091" name="wigDreadsBlack">
+	<item id="3024" name="wigDreadsBlack">
 		<property name="Extends" value="wigDreadsWhite"/>
 		<property name="CustomIcon" value="cloth"/>
 		<property class="UMA">
 			<property name="Overlay0Tint" value="0,0,0"/>
 		</property>
 	</item>
-	<item id="3092" name="wigDreadsRed">
+	<item id="3025" name="wigDreadsRed">
 		<property name="Extends" value="wigDreadsWhite"/>
 		<property name="CustomIcon" value="cloth"/>
 		<property class="UMA">
 			<property name="Overlay0Tint" value="255,0,0"/>
 		</property>
 	</item>
-	<item id="3093" name="wigAfroWhite">
+	<item id="3026" name="wigAfroWhite">
 		<property name="Extends" value="wigDreadsWhite"/>
 		<property name="CustomIcon" value="cloth"/>
 		<property class="UMA">
@@ -16603,14 +16610,14 @@ which does not exist, yet. -->
 			<property name="Overlay0" value="unisex_hair_afro"/>
 		</property>
 	</item>
-	<item id="3094" name="wigAfroBlack">
+	<item id="3027" name="wigAfroBlack">
 		<property name="Extends" value="wigAfroWhite"/>
 		<property name="CustomIcon" value="cloth"/>
 		<property class="UMA">
 			<property name="Overlay0Tint" value="0,0,0"/>
 		</property>
 	</item>
-	<item id="3095" name="wigAfroRed">
+	<item id="3028" name="wigAfroRed">
 		<property name="Extends" value="wigAfroWhite"/>
 		<property name="CustomIcon" value="cloth"/>
 		<property class="UMA">
@@ -16620,7 +16627,7 @@ which does not exist, yet. -->
 
 	<!-- BANDIT ITEMS -->
 	<!-- guns -->
-	<item id="3110" name="gunBanditPistol">
+	<item id="3029" name="gunBanditPistol">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="gunPistol"/>
@@ -16660,7 +16667,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="5,5"/>
 		</property>
 	</item>
-	<item id="3111" name="gunBandit44Magnum">
+	<item id="3030" name="gunBandit44Magnum">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="gun44Magnum"/>
@@ -16699,7 +16706,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="10,10"/>
 		</property>
 	</item>
-	<item id="3112" name="gunBanditSawedOffPumpShotgun">
+	<item id="3031" name="gunBanditSawedOffPumpShotgun">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="gunSawedOffPumpShotgun"/>
@@ -16742,7 +16749,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="5,5"/>
 		</property>
 	</item>
-	<item id="3113" name="gunBanditPumpShotgun">
+	<item id="3032" name="gunBanditPumpShotgun">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="gunPumpShotgun"/>
@@ -16785,7 +16792,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="5,5"/>
 		</property>
 	</item>
-	<item id="3114" name="gunBanditMP5">
+	<item id="3033" name="gunBanditMP5">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="gunMP5"/>
@@ -16832,7 +16839,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="5,5"/>
 		</property>
 	</item>
-	<item id="3115" name="gunBanditAK47">
+	<item id="3034" name="gunBanditAK47">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="gunAK47"/>
@@ -16879,7 +16886,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="5,5"/>
 		</property>
 	</item>
-	<item id="3116" name="gunBanditHuntingRifle">
+	<item id="3035" name="gunBanditHuntingRifle">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="gunHuntingRifle"/>
@@ -16922,7 +16929,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="5,5"/>
 		</property>
 	</item>
-	<item id="3117" name="gunBanditSniperRifle">
+	<item id="3036" name="gunBanditSniperRifle">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="gunSniperRifle"/>
@@ -16965,7 +16972,7 @@ which does not exist, yet. -->
 			<property name="BlockDamage" value="5,5"/>
 		</property>
 	</item>
-	<item id="3118" name="gunBanditRocketLauncher">
+	<item id="3037" name="gunBanditRocketLauncher">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="gunRocketLauncher"/>
@@ -17001,7 +17008,7 @@ which does not exist, yet. -->
 	</item>
 
 	<!-- melee -->
-	<item id="3130" name="meleeBanditSledgeHammer">
+	<item id="3038" name="meleeBanditSledgeHammer">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="CustomIcon" value="sledgehammer"/>
@@ -17036,7 +17043,7 @@ which does not exist, yet. -->
 	</item>
 
 	<!-- ammo -->
-	<item id="3150" name="9mmBanditBullet">
+	<item id="3039" name="9mmBanditBullet">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/9mm_bulletPrefab"/>
@@ -17044,7 +17051,7 @@ which does not exist, yet. -->
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="500"/>
 	</item>
-	<item id="3151" name="44MagBanditBullet">
+	<item id="3040" name="44MagBanditBullet">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="Meshfile" value="Items/Weapons/Ranged/Magnums/44_roundPrefab"/>
@@ -17052,7 +17059,7 @@ which does not exist, yet. -->
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="500"/>
 	</item>
-	<item id="3152" name="10mmBanditBullet">
+	<item id="3041" name="10mmBanditBullet">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/10mm_bulletPrefab"/>
@@ -17060,7 +17067,7 @@ which does not exist, yet. -->
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="500"/>
 	</item>
-	<item id="3153" name="762mmBanditBullet">
+	<item id="3042" name="762mmBanditBullet">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/762mm_bulletPrefab"/>
@@ -17068,7 +17075,7 @@ which does not exist, yet. -->
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="500"/>
 	</item>
-	<item id="3154" name="shotgunBanditShell">
+	<item id="3043" name="shotgunBanditShell">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShellPrefab"/>
@@ -17076,7 +17083,7 @@ which does not exist, yet. -->
 		<property name="HoldType" value="21"/>
 		<property name="Stacknumber" value="250"/>
 	</item>
-	<item id="3155" name="BanditRocket">
+	<item id="3044" name="BanditRocket">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Candrop" value="false"/>
 		<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketPrefab"/>
@@ -17103,7 +17110,7 @@ which does not exist, yet. -->
 	</item>
 
 	<!-- ZOMBIE HANDS -->
-	<item id="3170" name="handZombieTiny">
+	<item id="3045" name="handZombieTiny">
 		<property name="Extends" value="handMaster"/>
 		<property name="IsDeveloper" value="true"/>
 		<property name="HoldType" value="24"/>
@@ -17115,7 +17122,7 @@ which does not exist, yet. -->
 			<property name="Buff_chance" value="0.05,0.005"/>
 		</property>
 	</item>
-	<item id="3171" name="handZombieCur">
+	<item id="3046" name="handZombieCur">
 		<property name="Extends" value="handMaster"/>
 		<property name="IsDeveloper" value="true"/>
 		<property name="HoldType" value="24"/>
