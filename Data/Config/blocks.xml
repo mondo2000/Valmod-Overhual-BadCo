@@ -6964,7 +6964,7 @@ kind of free
 		<property name="UpgradeRated.ToBlock" value="air" />
 		<!-- <property name="UpgradeRated.ToBlock" value="GoreBlock1BonesPrefab" /> -->
 		<property name="UpgradeRated.Rate" value="5" />
-		<property name="DowngradeBlock" value="air" />
+		<property name="DowngradeBlock" value="GoreBlock1BonesPrefab" />
 		<drop event="Harvest" name="rottingFlesh" count="1" prob=".6" tool_category="Butcher" />
 		<drop event="Harvest" name="rottingFlesh" count="2" prob=".6" />
 		<drop event="Harvest" name="animalFat" count="2" prob=".33" tool_category="Butcher"/>
