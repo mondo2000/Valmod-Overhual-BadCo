@@ -14005,7 +14005,7 @@ kind of free
     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
     <property name="Tag" value="Gore"/>
     <property name="IsTerrainDecoration" value="true"/>
-    <property name="LootList" value="200"/>
+    <property name="LootList" value="209"/>
     <property name="DowngradeBlock" value="GoreBlock1BonesPrefab" />
     <drop event="Harvest" name="rawMeat" count="1" prob=".6" tool_category="Butcher"/>
     <drop event="Harvest" name="rawMeat" count="2" prob=".6"/>
@@ -14014,43 +14014,43 @@ kind of free
   </block>
   <block id="1922" name="banditPistolCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="201"/>
+    <property name="LootList" value="210"/>
   </block>
   <block id="1923" name="bandit44MagnumCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="202"/>
+    <property name="LootList" value="211"/>
   </block>
   <block id="2023" name="banditSawedOffPumpShotgunCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="203"/>
+    <property name="LootList" value="212"/>
   </block>
   <block id="2024" name="banditPumpShotgunCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="204"/>
+    <property name="LootList" value="213"/>
   </block>
   <block id="2025" name="banditMP5Corpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="205"/>
+    <property name="LootList" value="214"/>
   </block>
   <block id="2026" name="banditAK47Corpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="206"/>
+    <property name="LootList" value="215"/>
   </block>
   <block id="2027" name="banditHuntingRifleCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="207"/>
+    <property name="LootList" value="216"/>
   </block>
   <block id="2028" name="banditSniperRifleCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="208"/>
+    <property name="LootList" value="217"/>
   </block>  
   <block id="2029" name="banditRocketLauncherCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="209"/>
+    <property name="LootList" value="218"/>
   </block>  
   <block id="2030" name="banditSledgeCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
-    <property name="LootList" value="210"/>
+    <property name="LootList" value="219"/>
   </block>
 
 	<!-- Valmod Blocks -->
