@@ -661,7 +661,7 @@
 		<item group="rifles"/>
 		<item name="762mmBullet" count="5,15"/>
 	</lootgroup>
-	<lootgroup name="ak47+ammo" count="all">
+	<lootgroup name="ak47+ammo+nonmod" count="all">
 		<item name="gunAK47"/>
 		<item name="762mmBullet" count="5,18"/>
 	</lootgroup>
@@ -839,7 +839,7 @@
 		<item group="mp5+ammo" prob="0.15"/>
 		<item group="sniperRifle+ammo" prob="0.15"/>
 		<item group="rocketLauncher+ammo" prob="0.05"/>
-		<item group="ak47+ammo" prob="0.05" />
+		<item group="ak47+ammo+nonmod" prob="0.05" />
 	</lootgroup>
 	<lootgroup name="specialAmmo">
 		<item name="762mmBulletHP" count="10,15"/>
