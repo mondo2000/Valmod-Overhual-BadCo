@@ -1565,6 +1565,7 @@
 		<property name="DeadBodyHitPoints" value="20"/>
 		<property name="HasDeathAnim" value="true"/>
 		<property name="Weight" value="70"/>
+		<property name="LootListOnDeath" value="71" />
 	</entity_class>
 	<entity_class name="BanditFemaleTemplate" extends="BanditTemplate">
 		<property name="Archetype" value="BanditFemale"/>

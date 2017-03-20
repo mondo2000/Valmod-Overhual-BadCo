@@ -3011,10 +3011,12 @@
 		<item name="gunSawedOffPumpShotgun"/>
 		<item name="shotgunShell" count="1,6"/>
 	</lootgroup>
+	
 	<lootgroup name="44magnum+ammo" count="all">
 		<item name="gun44Magnum"/>
 		<item name="44MagBullet" count="1,12"/>
 	</lootgroup>
+	
 	<lootgroup name="badco+ak47+ammo" count="all">
 		<item name="gunAK47"/>
 		<item name="762mmBullet" count="1,20"/>
@@ -3027,33 +3029,43 @@
 		<item group="rareTools" count="1" prob="0.05"/>
 		<item group="rareOres" count="1,3" prob="0.05"/>
 	</lootgroup>
+	
 	<lootgroup name="banditsPistol" count="all">
 		<item group="pistol+ammo"/>
 	</lootgroup>
+	
 	<lootgroup name="bandits44Magnum" count="all">
 		<item group="44magnum+ammo"/>
 	</lootgroup>
+	
 	<lootgroup name="banditsSawedOffPumpShotgun" count="all">
 		<item group="sawedoffpumpshotgun+ammo"/>
 	</lootgroup>
+	
 	<lootgroup name="banditsPumpShotgun" count="all">
 		<item group="pumpshotgun+ammo"/>
 	</lootgroup>
+	
 	<lootgroup name="banditsMP5" count="all">
 		<item group="mp5+ammo"/>
 	</lootgroup>
+	
 	<lootgroup name="banditsAK47" count="all">
 		<item group="badco+ak47+ammo"/>
 	</lootgroup>
+	
 	<lootgroup name="banditsHuntingRifle" count="all">
 		<item group="huntingRifle+ammo"/>
 	</lootgroup>
+	
 	<lootgroup name="banditsSniperRifle" count="all">
 		<item group="sniperRifle+ammo"/>
 	</lootgroup>
+	
 	<lootgroup name="banditsRocketLauncher" count="all">
 		<item group="rocketLauncher+ammo"/>
 	</lootgroup>
+	
 	<lootgroup name="banditsSledgeHammer" count="all">
 		<item name="sledgehammer"/>
 	</lootgroup>
