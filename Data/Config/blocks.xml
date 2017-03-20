@@ -13993,9 +13993,9 @@ kind of free
 	<property name="RuntimeSwitch" value="true" />
 	<property name="DescriptionKey" value="lightGroupDesc"/>
 </block>
-
+<!-- 1921, 1922 ,1923, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030 -->
 <!-- Bad Company Custom Blocks -->
-  <block id="2000" name="banditLeaderCorpse">
+  <block id="1921" name="banditLeaderCorpse">
     <property name="Class" value="Loot"/>
     <property name="Material" value="organic"/>
     <property name="Shape" value="ModelEntity"/>
@@ -14012,43 +14012,43 @@ kind of free
     <drop event="Harvest" name="animalFat" count="2" prob=".33" tool_category="Butcher"/>
     <drop event="Destroy" count="0"/>
   </block>
-  <block id="2001" name="banditPistolCorpse">
+  <block id="1922" name="banditPistolCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="201"/>
   </block>
-  <block id="2002" name="bandit44MagnumCorpse">
+  <block id="1923" name="bandit44MagnumCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="202"/>
   </block>
-  <block id="2003" name="banditSawedOffPumpShotgunCorpse">
+  <block id="2023" name="banditSawedOffPumpShotgunCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="203"/>
   </block>
-  <block id="2004" name="banditPumpShotgunCorpse">
+  <block id="2024" name="banditPumpShotgunCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="204"/>
   </block>
-  <block id="2005" name="banditMP5Corpse">
+  <block id="2025" name="banditMP5Corpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="205"/>
   </block>
-  <block id="2006" name="banditAK47Corpse">
+  <block id="2026" name="banditAK47Corpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="206"/>
   </block>
-  <block id="2007" name="banditHuntingRifleCorpse">
+  <block id="2027" name="banditHuntingRifleCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="207"/>
   </block>
-  <block id="2008" name="banditSniperRifleCorpse">
+  <block id="2028" name="banditSniperRifleCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="208"/>
   </block>  
-  <block id="2009" name="banditRocketLauncherCorpse">
+  <block id="2029" name="banditRocketLauncherCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="209"/>
   </block>  
-  <block id="2010" name="banditSledgeCorpse">
+  <block id="2030" name="banditSledgeCorpse">
     <property name="Extends" value="banditLeaderCorpse"/>
     <property name="LootList" value="210"/>
   </block>
