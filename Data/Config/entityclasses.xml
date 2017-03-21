@@ -831,9 +831,9 @@
 		<property name="PanicSpeed" value="1" />
 		<property name="CanClimbLadders" value="false" />
 		<property name="RotateToGround" value="true"/>
-		<property name="MaxHealth" value="150" />
-		<property name="SoundRandomTime" value="45.0" />
-		<property name="SoundAlertTime" value="25.0" />
+		<property name="MaxHealth" value="2000" />
+		<property name="SoundRandomTime" value="60.0" />
+		<property name="SoundAlertTime" value="10.0" />
 		<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam" />
 		<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert" />
 		<property name="SoundHurt" value="Enemies/Zombie_Dogs/zombiedogpain" />
@@ -846,7 +846,7 @@
 		<property name="Weight" value="70" />
 		<property name="MaxViewAngle" value="180" />
 		<!-- AI properties -->
-		<property name="AITask-1" value="Territorial" param1="10" />
+		<property name="AITask-1" value="Territorial" param1="20" />
 		<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
 		<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
 		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
