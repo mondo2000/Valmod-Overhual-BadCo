@@ -10207,6 +10207,7 @@ which does not exist, yet. -->
 			<property name="Gain_food" value="35" />
 			<property name="Gain_water" value="35" />
 			<property name="Sound_start" value="UseActions/player_painkillers" />
+			<property name="Buff" value="admin" />
 			<property name="Debuff" value="freezing,hypo1,hypo2,hypo3,overheated,heat1,heat2,drowning,bleeding,burning,burningSmall,infection,infection2,infection3,foodPoisoning,sprainedLeg,internalBleeding,dysentery,dysentery2,brokenLeg,AlcoholPoisoning" />
 		</property>
 	</item>
@@ -10249,15 +10250,12 @@ which does not exist, yet. -->
 			<property name="Delay" value="0" />
 		</property>
 	</item>
-
-
-
-	<!-- ADMIN ITEMS -->
-	<item id="1665" name="Admin_nailgun">
+	
+	<item id="1666" name="Admin_nailgun">
 		<property name="IsDeveloper" value="true"/>
 		<property name="Meshfile" value="Items/Tools/nailgunPrefab"/>
 		<property name="CustomIcon" value="nailgun"/>
-		<property name="CustomIconTint" value="FF0000"/>
+		<property name="CustomIconTint" value="172,33,50" />
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="37"/>
 		<property name="Stacknumber" value="1"/>
@@ -10322,7 +10320,7 @@ which does not exist, yet. -->
 		<property name="IsDeveloper" value="true"/>
 		<property name="Meshfile" value="Items/Tools/nailProjectilePrefab"/>
 		<property name="CustomIcon" value="explodingCrossbowBolt"/>
-		<property name="CustomIconTint" value="FF0000"/>
+		<property name="CustomIconTint" value="172,33,50" />
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="16"/>
 		<property name="Stacknumber" value="1000"/>
@@ -10369,7 +10367,7 @@ which does not exist, yet. -->
 		<property name="Meshfile" value="Items/Tools/nailProjectilePrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="CustomIcon" value="yuccaFibers"/>
-		<property name="CustomIconTint" value="FF0000"/>
+		<property name="CustomIconTint" value="172,33,50" />
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="16"/>
 		<property name="Stacknumber" value="200"/>
@@ -16361,7 +16359,7 @@ which does not exist, yet. -->
 	<!-- WEAPONS -->
 	<item id="3016" name="gunToxicPhageCannon">
 		<property name="CustomIcon" value="nailgun"/>
-		<property name="CustomIconTint" value="00ff00"/>
+		<<property name="CustomIconTint" value="172,33,50" />
 		<property name="Meshfile" value="Items/Tools/nailgunPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="48"/>
@@ -16391,7 +16389,7 @@ which does not exist, yet. -->
 	</item>
 	<item id="3017" name="gunFlameThrower">
 		<property name="CustomIcon" value="nailgun"/>
-		<property name="CustomIconTint" value="ff0000"/>
+		<<property name="CustomIconTint" value="172,33,50" />
 		<property name="Meshfile" value="Items/Tools/nailgunPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="48"/>
@@ -16421,7 +16419,7 @@ which does not exist, yet. -->
 	</item>
 	<item id="3018" name="Grassitron2000">
 		<property name="CustomIcon" value="hoeIron"/>
-		<property name="CustomIconTint" value="00ff00"/>
+		<property name="CustomIconTint" value="172,33,50" />
 		<property name="Meshfile" value="Items/Tools/hoe_ironPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="50"/>
@@ -16495,6 +16493,7 @@ which does not exist, yet. -->
 	</item>
 	<item id="3021" name="FlameProjectile">
 		<!--    <property name="Meshfile" value="ParticleEffects/p_onFire"/>-->
+		<property name="CustomIconTint" value="172,33,50" />
 		<property name="Meshfile" value="ParticleEffects/p_signal_flareprefab"/>
 		<property name="HandMeshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketHandPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/oilShaleDroppedPrefab"/>
@@ -16536,6 +16535,7 @@ which does not exist, yet. -->
 	<item id="3022" name="GrassitronProjectile">
 		<property name="Meshfile" value="Items/Tools/nailProjectilePrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="CustomIconTint" value="172,33,50" />
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="200"/>
