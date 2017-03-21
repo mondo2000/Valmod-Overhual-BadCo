@@ -43,7 +43,7 @@
 		<!-- Speciality properties -->
 		<property name="DropInventoryBlock" value="cntBackpackDropped" />
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="classKey,classSelection,canBoiledWater,canUnlabeled,firstAidKit,splint,torch" />
-		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="classKey,classSelection,canBoiledWater,canUnlabeled,firstAidKit,torch,splint,keystoneBlock" />
+		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="classKey,classSelection,canBoiledWater,canUnlabeled,firstAidKit,torch,keystoneBlock" />
 		<property name="ExperienceGain" value="300"/>
 		<property name="LegsExplosionDamageMultiplier" value="1"/>
 		<property name="ArmsExplosionDamageMultiplier" value="1"/>
