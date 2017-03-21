@@ -846,12 +846,14 @@
 		<property name="Weight" value="70" />
 		<property name="MaxViewAngle" value="180" />
 		<!-- AI properties -->
-		<property name="AITask-1" value="Territorial" param1="20" />
+		<property name="AITask-1" value="Territorial" param1="5" />
 		<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
 		<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
 		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
 		<property name="AITask-5" value="ApproachSpot" />
+		<!--
 		<property name="AITask-6" value="Wander" />
+			  -->
 		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityZombie" />
 		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
 		<property name="AITarget-3" value="SetAsTargetIfHurt" param1="EntityZombieDog" />

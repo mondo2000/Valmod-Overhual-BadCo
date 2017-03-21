@@ -628,7 +628,7 @@ snowberryPlant feeds you for 90 sec. -->
 
 	<!-- New buffs -->
 	<buff id="incendiary" debuffif="+water > 1" duration="25" ffcheck="true" actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0,2,0,2);damage(0,6,0,0)" icon="ui_game_symbol_fire" name_key="burning" description_key="burningDesc" tooltip_key="burningTooltip" cures="canBoiledWater,bottledWater,goldenRodTea,redTea">
-		<modify id="1" stat="health" amount="-20" rate="1"/>
+		<modify id="1" stat="health" amount="-900" rate="1"/>
 	</buff>
 
 	<buff id="acidburning" duration="15" ffcheck="true" actions="attach(Items/Weapons/Ranged/Vomit/vomitBulbPrefab, @impact);damage(0,3,0,3);damage(0,6,0,0)" icon="ui_game_symbol_fire" name_key="acidburning" description_key="acidburningDesc" tooltip_key="acidburningTooltip">
