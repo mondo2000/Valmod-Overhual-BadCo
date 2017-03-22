@@ -1765,7 +1765,7 @@
 		<item group="treasureMaps" count="1" />
 		<item group="zombieQuestGroup" count="1" />
 	</lootgroup>
-	<lootcontainer id="15" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="15" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="0.65"/>
 		<item group="clothes" prob="0.06"/>
 		<item group="rottenFood" prob="0.07"/>
@@ -1817,7 +1817,7 @@
 	</lootcontainer>
 
 	<!-- lootcontainer 21 medical supplies dead nurse-->
-	<lootcontainer id="21" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="21" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="medicine" prob="0.7"/>
 		<item name="survivorNotes" prob="0.1"/>
 		<item name="oldCash" count="1,20" prob="0.2"/>
@@ -2061,7 +2061,7 @@
 		<item group="questChallenge" count="1" prob="0.125"/>
 		<item group="treasureMaps" count="1" prob="0.1"/>
 	</lootgroup>
-	<lootcontainer id="37" count="1" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="37" count="1" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="CorpseGroup" prob="0.6"/>
 		<item group="empty" prob="0.4"/>
 	</lootcontainer>
@@ -2079,7 +2079,7 @@
 		<item group="pistol+ammo" prob="0.13"/>
 		<item name="survivorNotes" prob="0.12"/>
 	</lootgroup>
-	<lootcontainer id="38" count="1" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="38" count="1" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="GenericFatZombie" prob="0.62"/>
 		<item group="empty" prob="0.38"/>
 	</lootcontainer>
@@ -2293,7 +2293,7 @@
 	</lootcontainer>
 
 	<!-- feral zombie loot -->
-	<lootcontainer id="61" count="1,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="61" count="1,3" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="militaryguns+ammo" prob="0.2"/>
 		<item group="magnumparts" prob="1"/>
 		<item group="militaryArmor" prob="0.1"/>
@@ -2317,7 +2317,7 @@
 	</lootcontainer>
 
 	<!-- lootcontainer zombieMaleHazmat/zombieFemaleHazmat -->
-	<lootcontainer id="65" count="0,3" size="8,4" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="65" count="0,3" size="8,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="hazmatGear" count="1"/>
 		<item group="MedicineTier2" prob="0.2"/>
 		<item name="grainAlcohol" count="1,4" prob=".2"/>
@@ -2333,7 +2333,7 @@
 	</lootcontainer>
 
 	<!-- lootcontainer lumberjack zombie loot-->
-	<lootcontainer id="66" count="0,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="66" count="0,2" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="lumberjacks" prob="0.42"/>
 		<item group="warmClothes" prob="1"/>
 		<item group="hazmatGear" count="1" prob="0.01"/>
@@ -2376,19 +2376,19 @@
 	</lootcontainer>
 
 	<!-- lootcontainer 71 bandit melee -->
-	<lootcontainer id="71" count="0,3" size="7,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="71" count="0,3" size="7,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsGeneral"/>
 		<item name="clubSpiked" count="1" prob="0.7"/>
 	</lootcontainer>
 
 	<!-- lootcontainer 72 bandit ranged -->
-	<lootcontainer id="72" count="0,3" size="7,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="72" count="0,3" size="7,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsGeneral"/>
 		<item group="pistol+ammo" count="1" prob="0.7"/>
 	</lootcontainer>
 
 	<!-- lootcontainer 73 ZombieSoldier loot -->
-	<lootcontainer id="73" count="1,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="73" count="1,3" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="2"/>
 		<item group="militaryguns+ammo" prob="1"/>
 		<item group="rocketLauncher+ammo" prob="0.3"/>
@@ -2397,7 +2397,7 @@
 	</lootcontainer>
 
 	<!-- lootcontainer 74 zombie utility worker / construction worker loot -->
-	<lootcontainer id="74" count="0,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="74" count="0,3" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="ZombieUtilityWorker" />
 	</lootcontainer>
 
@@ -2423,12 +2423,12 @@
 	</lootcontainer>
 
 	<!-- lootcontainer 78 ZombieFootballPlayer -->
-	<lootcontainer id="78" count="0,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="78" count="0,3" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="ZombieFootballPlayer" />
 	</lootcontainer>
 
 	<!-- lootcontainer 79 ZombieCheerleader -->
-	<lootcontainer id="79" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="79" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="1"/>
 		<item name="tshirtZUWhite" prob="2"/>
 		<item name="denimShortsPantsRed" prob="2"/>
@@ -2438,7 +2438,7 @@
 	</lootcontainer>
 
 	<!-- lootcontainer 80 ZombieSkateboarder -->
-	<lootcontainer id="80" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="80" count="0,3" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="2"/>
 		<item name="hoodedSweatshirtWhite" prob="1"/>
 		<item name="blackDenimPants" prob="1"/>
@@ -2449,7 +2449,7 @@
 	</lootcontainer>
 
 	<!-- lootcontainer 81 zombieOldTimer / zombieCowboy -->
-	<lootcontainer id="81" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="81" count="0,3" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="10"/>
 		<item group="magnumparts" prob="2"/>
 		<item group="huntingRifleParts" prob="2"/>
@@ -2471,13 +2471,13 @@
 	</lootcontainer>
 
 	<!-- lootcontainer 82 ZombieMiner -->
-	<lootcontainer id="82" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="82" count="0,3" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="1"/>
 		<item group="minerLoot"/>
 	</lootcontainer>
 
 	<!-- lootcontainer 83 ZombieBiker -->
-	<lootcontainer id="83" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="83" count="0,3" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="2"/>
 		<item name="swatHelmet"/>
 		<item name="gothicPants"/>
@@ -2508,7 +2508,7 @@
 	</lootcontainer>
 
 	<!-- lootcontainer 84 ZombieStripper -->
-	<lootcontainer id="84" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="84" count="0,3" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="2"/>
 		<item name="oldCash" count="4,45" prob="2"/>
 		<item name="casinoCoin" count="10,30"/>
@@ -2520,7 +2520,7 @@
 	</lootcontainer>
 
 	<!-- lootcontainer 85 ZombieFarmer -->
-	<lootcontainer id="85" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="85" count="0,3" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="2"/>
 		<item group="tools" prob="1"/>
 		<item group="farmCrops" prob="1"/>
@@ -2669,7 +2669,7 @@
 		<item group="cannedfood" count="0,1"/>
 		<item name="bottledWater" count="1,2"/>
 	</lootgroup>
-	<lootcontainer id="87" count="1,3" size="3,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="87" count="1,3" size="3,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="bomberFood" count="1" prob="0.25"/>
 		<item group="ammo" prob="0.2"/>
 		<item group="pistol+ammo" prob="0.2"/>
@@ -2680,7 +2680,7 @@
 		<item group="treasureMaps" count="1" prob="0.05"/>
 	</lootcontainer>
 	<!-- Zombie Ravager -->
-	<lootcontainer id="88" count="1,2" size="3,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="88" count="1,2" size="3,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="militaryammo" prob="0.1"/>
 		<item group="commonWeaponParts" prob="0.3"/>
 		<item group="ammo" prob="0.35"/>
@@ -2689,7 +2689,7 @@
 		<item name="militaryHelmet" prob="0.05"/>
 	</lootcontainer>
 	<!-- snow zombie  -->
-	<lootcontainer id="89" count="1" size="3,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="89" count="1" size="3,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="snowZombieWorker"/>
 		<item group="snowZombieLumberjack"/>
 		<item group="snowZombieHunter"/>
@@ -2712,7 +2712,7 @@
 		<item name="painkillers" prob="0.05"/>
 		<item name="challengeCookbook" count="1" prob="0.02"/>
 	</lootgroup>
-	<lootcontainer id="90" destroy_on_close="false" count="1" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="90" destroy_on_close="true" count="1" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="GenericFemaleZombie" />
 	</lootcontainer>
 	<!-- Burnt Zombies  -->
@@ -2741,7 +2741,7 @@
 		<item name="bottledWater" count="1,2" prob="0.15"/>
 		<item group="cannedfood" prob="0.15"/>
 	</lootgroup>
-	<lootcontainer id="91" destroy_on_close="false" count="1" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="91" destroy_on_close="true" count="1" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="GenericBurntZombie" prob="0.66"/>
 		<item group="empty" prob="0.34"/>
 	</lootcontainer>
@@ -2814,7 +2814,7 @@
 		<item name="recipebookPottery"/>
 		<item name="skillbookMining"/>
 	</lootgroup>
-	<lootcontainer id="122" count="0,2" size="3,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="122" destroy_on_close="true" count="0,2" size="3,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="MinerTools"/>
 		<item group="MinerSchematics"/>
 		<item name="miningHelmet"/>
@@ -2829,7 +2829,7 @@
 	</lootcontainer>
 
 	<!-- Librarian Zombie  -->
-	<lootcontainer id="123" destroy_on_close="false" count="0,2" size="4,4" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="123" destroy_on_close="true" count="0,2" size="4,4" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" count="1,2" prob="0.2"/>
 		<item name="survivorNotes" prob="0.05"/>
 		<item group="clothes" prob="0.1"/>
@@ -2843,7 +2843,7 @@
 	</lootcontainer>
 
 	<!-- Survivor Zombie  -->
-	<lootcontainer id="124" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="124" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junkAmmo" prob="0.52"/>
 		<item group="clothes" prob="0.06"/>
 		<item group="crossbow+ammo" count="1" prob="0.05"/>
@@ -2853,7 +2853,7 @@
 	</lootcontainer>
 
 	<!-- Voodoo Zombie  -->
-	<lootcontainer id="125" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="125" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="0.6"/>
 		<item group="clothes" prob="0.06"/>
 		<item group="rottenFood" prob="0.07"/>
@@ -2900,7 +2900,7 @@
 	</lootcontainer>
 
 	<!-- Inmate Zombie -->
-	<lootcontainer id="128" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="128" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="0.6"/>
 		<item group="rottenFood" prob="0.07"/>
 		<item group="zombieQuests" count="1" prob="0.05"/>
@@ -2930,7 +2930,7 @@
 		<item name="skillbookKnight"/>
 		<item name="skillbookChemistry"/>
 	</lootgroup>
-	<lootcontainer id="129" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="129" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junkFood" prob="0.55"/>
 		<item group="trophyGroup" prob="0.06"/>
 		<item name="shamSandwich" prob="0.07"/>
@@ -2947,7 +2947,7 @@
 	</lootcontainer>
 
 	<!-- Ranger Zombie -->
-	<lootcontainer id="131" count="0,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="131" count="0,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="junk" prob="0.6"/>
 		<item group="huntingRifleParts" prob="0.08"/>
 		<item group="carFood" prob="0.09"/>
@@ -3129,37 +3129,37 @@
 		<item group="banditsRare" count="0,2"/>
 	</lootgroup>
 
-	<lootcontainer id="209" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="209" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsLeader+AK47" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="210" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="210" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+Pistol" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="211" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="211" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+44Magnum" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="212" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="212" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+SawedOffPumpShotgun" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="213" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="213" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+PumpShotgun" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="214" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="214" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+MP5" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="215" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="215" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+AK47" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="216" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="216" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+HuntingRifle" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="217" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="217" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+SniperRifle" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="218" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="218" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+RocketLauncher" prob="1"/>
 	</lootcontainer>
-	<lootcontainer id="219" count="1" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<lootcontainer id="219" count="1" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="banditsThug+SledgeHammer" prob="1"/>
 	</lootcontainer>
 

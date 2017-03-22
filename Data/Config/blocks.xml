@@ -700,7 +700,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="IsTerrainDecoration" value="true" />
 	<property name="FallDamage" value="false" />
 	<property name="UpgradeRated.ToBlock" value="GoreBlock1BonesPrefab" />
-	<property name="UpgradeRated.Rate" value="22" />
+	<property name="UpgradeRated.Rate" value="2" />
 	<property name="DowngradeBlock" value="GoreBlock1BonesPrefab" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".6" tool_category="Butcher" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".6" />
@@ -6368,7 +6368,7 @@ kind of free
 		<!-- <property name="UpgradeRated.BlockCombined" value="air" /> -->
 		<!-- <property name="UpgradeRated.ToBlock" value="GoreBlock1BonesPrefab" /> -->
 		<property name="UpgradeRated.ToBlock" value="air" />
-		<property name="UpgradeRated.Rate" value="5" />
+		<property name="UpgradeRated.Rate" value="2" />
 	<property name="DowngradeBlock" value="GoreBlock1BonesPrefab" />
 	<drop event="Harvest" name="rottingFlesh" count="1" prob=".6" tool_category="Butcher" />
 	<drop event="Harvest" name="rottingFlesh" count="2" prob=".6" />
@@ -6389,7 +6389,7 @@ kind of free
 	<property name="IsTerrainDecoration" value="true" />
 		<!-- <property name="UpgradeRated.BlockCombined" value="air" /> -->
 		<property name="UpgradeRated.ToBlock" value="air" />
-		<property name="UpgradeRated.Rate" value="5" />
+		<property name="UpgradeRated.Rate" value="2" />
 	<drop event="Harvest" name="femur" count="1" prob=".4" tool_category="Butcher" />
 	<drop event="Destroy" name="femur" count="1" prob="1" />
 </block>
