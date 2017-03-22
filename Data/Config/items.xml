@@ -10207,6 +10207,7 @@ which does not exist, yet. -->
 			<property name="Gain_food" value="35" />
 			<property name="Gain_water" value="35" />
 			<property name="Sound_start" value="UseActions/player_painkillers" />
+			<property name="Buff" value="admin" />
 			<property name="Debuff" value="freezing,hypo1,hypo2,hypo3,overheated,heat1,heat2,drowning,bleeding,burning,burningSmall,infection,infection2,infection3,foodPoisoning,sprainedLeg,internalBleeding,dysentery,dysentery2,brokenLeg,AlcoholPoisoning" />
 		</property>
 	</item>
